@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <JuegoPage/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import JuegoPage from './components/JuegoPage.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    JuegoPage
   }
 }
 </script>
@@ -24,3 +24,4 @@ export default {
   margin-top: 60px;
 }
 </style>
+
